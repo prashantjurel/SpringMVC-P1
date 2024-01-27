@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/3")
 public class ThirdController {
 	
-	@ResponseBody
 	@RequestMapping("/third")
 	public String thirdControllerString(){
-		return "This is the Third Controller String";
+		return "thirdControllerView";
 	}
 	
 	@ResponseBody
